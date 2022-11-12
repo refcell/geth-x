@@ -1,4 +1,4 @@
-<img align="right" width="150" height="150" top="100" src="./assets/geth.png">
+<img align="right" width="150" height="150" top="100" src="./assets/gopher.png">
 
 # geth-x • [![goreport](https://goreportcard.com/badge/github.com/abigger87/geth-x)](https://goreportcard.com/report/github.com/abigger87/geth-x) [![godocs](https://godoc.org/github.com/abigger87/geth-x?status.svg)](https://godoc.org/github.com/abigger87/geth-x) [![ci](https://github.com/abigger87/geth-x/actions/workflows/checks.yml/badge.svg)](https://github.com/abigger87/geth-x/actions/workflows/checks.yml)
 

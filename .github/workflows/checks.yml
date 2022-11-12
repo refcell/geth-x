@@ -1,0 +1,22 @@
+name: ci
+on: [push]
+jobs:
+  test:
+    name: tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go_version: ["1.18"]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: ${{ matrix.go_version }}
+      - name: tests
+        run: go test -timeout=30s .
+      - name: benchmarks
+        run: go test -bench=. .
+      - name: lint
+        run: revive -formatter friendly .
+      - name: vet
+        run: go vet .

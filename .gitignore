@@ -13,4 +13,5 @@
 
 # Environment Variables
 .env
+.env.prod
 

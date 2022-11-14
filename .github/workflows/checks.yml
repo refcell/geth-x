@@ -1,17 +1,16 @@
 name: ci
 on: [push]
+env:
+  ETH_RPC_URL: ${{ secrets.ETH_RPC_URL }}
 jobs:
-  test:
-    name: tests
+  tracer-tests:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        go_version: ["1.18"]
+    defaults:
+      run:
+        working-directory: ./tracer
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
-        with:
-          go-version: ${{ matrix.go_version }}
       - name: tests
         run: go test -timeout=30s .
       - name: benchmarks

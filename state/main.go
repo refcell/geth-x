@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 )
 
-//go:generate abigen --abi ./abi/erc20.abi --pkg erc20 --type ERC20 --out ./abi/erc20.go
+//go:generate abigen --abi ./dai.abi --pkg main --type Dai --out ./dai.go
 type Dai interface {
 	Allowance(common.Address, common.Address) (*big.Int, error)
 }

@@ -1,7 +1,7 @@
-// Package main demonstrates how to send a bundle to Flashbots.
+// Package stats demonstrates how to send a bundle to Flashbots.
 //
 // This follows the example provided in the Flashbots documentation (linked below).
-// <https://docs.flashbots.net/flashbots-auction/searchers/quick-start>
+// [Flashbots Documentation]: https://docs.flashbots.net/flashbots-auction/searchers/quick-start
 //
 // When you send bundles to Flashbots they must be signed with a private key so that flashbots can establish identity and reputation for searchers.
 // This private key does not store funds and is not the primary private key you use for executing transactions.
@@ -11,7 +11,7 @@
 // The Flashbots builder receives bundles at relay.flashbots.net.
 // To send transactions, Flashbots provides specific RPC endpoints.
 // For example, below we demonstrate using the glashbots_getUserStats rpc endpoint to fetch the searcher's statistics.
-package main
+package stats 
 
 import (
 	"bytes"

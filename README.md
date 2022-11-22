@@ -2,13 +2,13 @@
 
 # geth-x • [![goreport](https://goreportcard.com/badge/github.com/abigger87/geth-x)](https://goreportcard.com/report/github.com/abigger87/geth-x) [![godocs](https://godoc.org/github.com/abigger87/geth-x?status.svg)](https://godoc.org/github.com/abigger87/geth-x) [![ci](https://github.com/abigger87/geth-x/actions/workflows/checks.yml/badge.svg)](https://github.com/abigger87/geth-x/actions/workflows/checks.yml)
 
-In-depth examples for working with and extending go-ethereum.
+Examples, trickery, and self-documenting tomfoolery for interacting and working with go-ethereum including some breakage.
 
 > **Note**
 >
 > This is heavily inspired by [libevm](https://github.com/libevm)'s [geth-examples](https://github.com/libevm/geth-examples).
 >
-> _I'm but a humble searcher, standing on the shoulders of giants._
+> _I am but a humble searcher, standing on the shoulders of giants._
 
 ### Getting Started
 
@@ -26,4 +26,4 @@ All contributions are highly welcomed.
 
 Licensed under [MIT](https://github.com/abigger87/geth-x/blob/main/LICENSE) - adapt, fork, copy, go wild!
 
-Good luck, searcher.
+Good luck, searcher 🫡
